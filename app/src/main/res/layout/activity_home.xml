@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity"
+    android:background="@drawable/monk">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/option"
+        android:textAlignment="center"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+  <info.hoang8f.widget.FButton
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:layout_marginTop="200dp"
+      android:text="ALl messages"
+      android:id="@+id/all_sms"/>
+
+    <info.hoang8f.widget.FButton
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:text="new  messages"
+        android:id="@+id/new_sms"/>
+</LinearLayout>
